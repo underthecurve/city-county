@@ -7,6 +7,8 @@ library('maptools')
 
 gpclibPermit()
 
+# a helfpul reference guide: https://www.census.gov/geo/reference/geoguide.html
+
 ## all usa states
 usa.states <- readOGR("cb_2017_us_state_500k/cb_2017_us_state_500k.shp")
 
